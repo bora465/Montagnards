@@ -26,12 +26,23 @@ text-decoration: none;}
     color: black;} 
 .content {
     background-color: white;
-    height: 700px;}
+    height: 700px;
+  margin: 2em}
 
 h1 {text-align: center; font: bold;}
 
 .footer {text-align: center;
 padding-top: 1em;}
+* {
+  box-sizing: border-box;
+}
+.column {
+  width: 25%;
+  height: 300px;
+width: 400px}
+.row:after {
+  display: table;
+  clear: both;}
 
         </style>
     </head>
@@ -45,8 +56,25 @@ padding-top: 1em;}
           
           <div class="content">
               <h1>Gallery</h1>
-              <p><img src="images/MTD Flag.gif" alt="MTD flag"></p><br>
-              <img src="images/Art.jpg" alt="art" width="450" height="300">
+            <div class="row">
+              <div class="column">
+                <h2>Montagnard Flag</h2>
+                <p><img src="images/MTD Flag.gif" alt="MTD flag" width="350" height="210"><br>
+                This is the Montagnards' main flag</p>
+              </div>
+              <div class="column">
+                <h2>Art by Montagnard</h2>
+                <p><img src="images/Art.jpg" alt="art" width="350" height="210">
+                Montagnards traditionally art </p>
+              </div>
+              <div class="column">
+                <h2>War</h2>
+                <p><img src="images/war.jpg" alt="war" width="350" height="210"></p>
+              </div>
+              <div class="column">
+                <h2>Column 4</h2>
+                <p>Some text..</p>
+              </div>
             </div>
           </div>
 
