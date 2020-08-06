@@ -11,7 +11,7 @@
 
 /* Nav styles */
 .topnav {overflow: hidden;
-    background-color:black;}
+    background-color:black; min-width: 1300px;}
 
 .topnav a {
   float: left;
@@ -27,19 +27,18 @@ text-decoration: none;}
 .content {
     background-color: white;
     height: 700px;
-  margin: 2em}
+  margin: 2em; position: relative; min-width: 1300px; font-family: Georgia, serif;}
 
-h1 {text-align: center; font: bold;}
-
+h1 {text-align: center; font: bold;  font-family: Georgia, serif;}
+h2 , h3 {text-align: center;  font-family: Georgia, serif;}
 .footer {text-align: center;
 padding-top: 1em;}
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 .column {
-  width: 25%;
-  height: 300px;
-width: 400px}
+   height: 600px; width: 400px; border: double 5px #EADDC4; padding: 1em; 
+  margin: 1em; overflow: auto; border-radius: 10px; }
 .row:after {
   display: table;
   clear: both;}
@@ -49,34 +48,68 @@ width: 400px}
     <body>
         <div class="topnav">
             <a href="index.html">Home</a>
-            <a href="culture.html">Culture</a>
+            <a href="culture.html">History</a>
             <a href="Gallery.html">Gallery</a>
             <a href="info.html">Info</a>
           </div>
           
           <div class="content">
-              <h1>Gallery</h1>
+              <h1>GALLERY</h1><br>
             <div class="row">
               <div class="column">
-                <h2>Montagnard Flag</h2>
-                <p><img src="images/MTD Flag.gif" alt="MTD flag" width="350" height="210"><br>
-                This is the Montagnards' main flag</p>
+                <h3>Montagnard Flag</h3>
+                <p><img src="images/MTD Flag.gif" alt="MTD flag" width="350" height="210"><br><br>
+                This flag unites all the MTDs. Green for the mountains and forests of the Highlands. 
+                White for peace and honesty. Red represents the blood and struggle that the MTDs have
+                gone through and the circle of gold place emphasis on justice and friendship. 
+                The elephant represents the people, gentle but powerful.
               </div>
               <div class="column">
-                <h2>Art by Montagnard</h2>
-                <p><img src="images/Art.jpg" alt="art" width="350" height="210">
-                Montagnards traditionally art </p>
+                <h3>Traditional Art</h3>
+                <p><img src="images/Art.jpg" alt="art" width="350" height="210"><br><br>
+                  <img src="images/weaving.jpg" alt="weaving" width="350" height="210"><br><br>
+                  <img src="images/crossbow.jpg" alt="crossbow" width="350" height="210"><br><br>
+                </p>
               </div>
               <div class="column">
-                <h2>War</h2>
-                <p><img src="images/war.jpg" alt="war" width="350" height="210"></p>
-              </div>
-              <div class="column">
-                <h2>Column 4</h2>
-                <p>Some text..</p>
+                <h3>War Photos</h3>
+                <p><img src="images/war.jpg" alt="war" width="350" height="210"><br><br>
+                  <img src="images/history.jpg" alt="war" ><br><br>
+                  <img src="images/Scanning.png" alt="field" width="350" height="210"><br><br>
+                  <img src="images/greenberets.jpg" alt="Green Berets" width="350" height="210"><br><br>
+                  <img src="images/training.jpg" alt="Training" width="350" height="210"><br><br></p>
               </div>
             </div>
           </div>
+          <div class="content">
+            <h1>Interesting Facts</h1><br>
+          <div class="row">
+            <div class="column">
+              <h2>Miss Universe Vietnam </h2>
+              <p><img src="images/hhennie.jpg" alt="H'Hen Nie" width="350" height="210"><br><br>
+              H'Hen Nie born on May 15 1992, Buon Ma Thuot, Vietnam, won Miss Universe Vietnam 2018 and is the first Montagnard to ever win the title. 
+              She represented Vietnam at Miss Universe 2018 and finished in the Top 5.</p>
+              <a href="https://www.instagram.com/hhennie.official/?hl=en">@Hhennie.official instragram</a>
+            </div>
+            <div class="column">
+              <h2>Population</h2>
+              <p><img src="images/North Carolina.JPG" alt="North Carolina" width="350" height="210"><br><br>
+                According to the 1971 census, there was a population of approximately one million and today, there are
+                about four million Montagnards. Today, outside of the Highlands, majority of Montagnard lives in North Carolina. Major cities include Greensboro, 
+                Raleigh, and charlotte, but however, Montagnards can settle anywhere other than those cities and the Highlands.</p>
+            </div>
+            <div class="column">
+              <h2>Behind the Names</h2>
+              <p><img src="images/MAO.JPG" alt="Montagnard" width="350" height="210"><br><br>
+              You can easily tell if a person is Montagnard by how their name is spelled. Females would have and H' in 
+            front of their names and males would have a Y' in the front. But not all MTDs have it in their names, 
+          but you can particularly look at their last names.</p>
+          <ul>Common Last Name includes:
+            <li>Siu, Ksor, Puih, Thinh, Ayun, Hmok, Eban</li><li>Rahlan, Rcom, Rocham, R(o)mah, Rolan</li><li>Nie, Thi, Adrong, Mlo, Kpa ...</li>
+          </ul>
+            </div>
+          </div>
+        </div>
 
         <div class="footer">
         <p><small>Copyright 2020 &copy;, Made by H'Thabora Siu</small></p>
