@@ -20,7 +20,7 @@ text-decoration: none;}
   /* main page */
 .content {
     background-image: url(images/highland.jpg);
-    height: 600px;}
+    height: 600px;  font-family: Georgia, serif;}
 #container {background: content-box; text-align: center;
 padding-top: 200px; background-color: rgba(255, 255, 255, 0.466); }
 
