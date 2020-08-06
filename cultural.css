@@ -4,7 +4,7 @@ body {margin: 0;
 
     /* Nav style */
   .topnav {overflow: hidden;
-      background-color:black; min-width: 850px;}
+      background-color:black; min-width: 1300px;}
   
   .topnav a {
     float: left;
@@ -21,7 +21,7 @@ body {margin: 0;
   .content {
   background-color: white;
       height: 900px;
-    margin: 2em; position: relative;min-width: 800px;  font-family: Georgia, serif;}
+    margin: 2em; position: relative;min-width: 1300px;  font-family: Georgia, serif;}
 
   .floatleft {float: right; margin-left: 1em;}
   img[src*="language"] {float: right; margin-left: 1em;}
